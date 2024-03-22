@@ -1,0 +1,2 @@
+{"collaborationName":"Java","adminName":"user1"}
+{"collaborationName":"i am free","adminName":"user2"}
