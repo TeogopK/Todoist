@@ -15,7 +15,7 @@ public class Client {
     private static final String SERVER_HOST = "localhost";
     private static final int BUFFER_SIZE = 1024;
 
-    private static ByteBuffer buffer = ByteBuffer.allocateDirect(BUFFER_SIZE);
+    private static final ByteBuffer buffer = ByteBuffer.allocateDirect(BUFFER_SIZE);
 
     private static final String COMMAND_STARTER = "> ";
 

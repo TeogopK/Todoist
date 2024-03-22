@@ -2,13 +2,13 @@ package bg.sofia.uni.fmi.mjt.todoist.database;
 
 import bg.sofia.uni.fmi.mjt.todoist.database.serializers.AllAccountsSerializer;
 import bg.sofia.uni.fmi.mjt.todoist.database.serializers.AllCollaborationsSerializer;
+import bg.sofia.uni.fmi.mjt.todoist.database.serializers.UserPasswordsSerializer;
 import bg.sofia.uni.fmi.mjt.todoist.exceptions.CollaborationNotFoundException;
 import bg.sofia.uni.fmi.mjt.todoist.exceptions.CollaborationRightsExceededException;
 import bg.sofia.uni.fmi.mjt.todoist.exceptions.UserDoesNotExistException;
-import bg.sofia.uni.fmi.mjt.todoist.task.collaboration.Collaboration;
-import bg.sofia.uni.fmi.mjt.todoist.database.serializers.UserPasswordsSerializer;
 import bg.sofia.uni.fmi.mjt.todoist.task.CollaborationTask;
 import bg.sofia.uni.fmi.mjt.todoist.task.TaskKey;
+import bg.sofia.uni.fmi.mjt.todoist.task.collaboration.Collaboration;
 import bg.sofia.uni.fmi.mjt.todoist.user.Account;
 import bg.sofia.uni.fmi.mjt.todoist.user.UserInfo;
 

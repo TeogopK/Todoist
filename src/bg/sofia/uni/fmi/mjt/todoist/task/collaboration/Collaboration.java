@@ -6,21 +6,19 @@ import bg.sofia.uni.fmi.mjt.todoist.exceptions.UserIsNotParticipantException;
 import bg.sofia.uni.fmi.mjt.todoist.task.CollaborationTask;
 import bg.sofia.uni.fmi.mjt.todoist.task.TaskKey;
 
-import java.time.LocalDate;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
 
 public class Collaboration {
 
-    private String collaborationName;
-    private String creatorName;
-    private Set<String> participants;
-    private Map<TaskKey, CollaborationTask> collaborationTasks;
+    private final String collaborationName;
+    private final String creatorName;
+    private final Set<String> participants;
+    private final Map<TaskKey, CollaborationTask> collaborationTasks;
 
     public Collaboration(String collaborationName, String creatorName) {
         this.collaborationName = collaborationName;

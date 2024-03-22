@@ -12,7 +12,6 @@ import bg.sofia.uni.fmi.mjt.todoist.menu.collaboration.literals.CollaborationExe
 import bg.sofia.uni.fmi.mjt.todoist.menu.collaboration.literals.CollaborationExecutorResponses;
 import bg.sofia.uni.fmi.mjt.todoist.menu.command.Command;
 import bg.sofia.uni.fmi.mjt.todoist.menu.executor.CommandExecutor;
-import bg.sofia.uni.fmi.mjt.todoist.menu.executor.literals.CommandExecutorResponses;
 import bg.sofia.uni.fmi.mjt.todoist.menu.printers.CollaborationPrinter;
 import bg.sofia.uni.fmi.mjt.todoist.menu.printers.CollaborationTaskPrinter;
 import bg.sofia.uni.fmi.mjt.todoist.task.CollaborationTask;
@@ -33,7 +32,7 @@ public class CollaborationExecutor extends CommandExecutor {
     private static final String LIST_COLLABORATION_TASKS = "list-collaboration-tasks";
     private static final String LIST_USERS = "list-users";
 
-    private CommandExecutor commandExecutor;
+    private final CommandExecutor commandExecutor;
 
     public CollaborationExecutor(Account userAccount, Database database) {
         super(userAccount, database);

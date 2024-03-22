@@ -6,7 +6,7 @@ import java.util.Objects;
 // Thanks to https://stackoverflow.com/a/24372759
 public abstract class AbstractTask {
 
-    protected String name;
+    protected final String name;
 
     protected LocalDate date;
     protected LocalDate dueDate;
@@ -62,8 +62,8 @@ public abstract class AbstractTask {
 
     protected abstract static class AbstractBuilder<T extends AbstractTask, B extends AbstractBuilder<T, B>> {
 
-        protected T object;
-        protected B thisObject;
+        protected final T object;
+        protected final B thisObject;
 
         protected abstract T getObject(String name);
 

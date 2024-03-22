@@ -9,7 +9,7 @@ public class UserInfo {
 
     private final static String REGEX_ONLY_LATIN_LETTERS_NUMBERS_AND_UNDERSCORE = "[a-zA-Z0-9_]+";
 
-    private String username;
+    private final String username;
     private byte[] password;
     private byte[] salt;
 

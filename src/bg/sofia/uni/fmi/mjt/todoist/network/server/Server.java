@@ -39,9 +39,9 @@ public class Server {
 
     private final Map<SocketChannel, String> clientsMap;
 
-    private Database database;
+    private final Database database;
 
-    private MainMenu mainMenu;
+    private final MainMenu mainMenu;
 
     private CollaborationExecutor collaborationExecutor;
 

@@ -1,13 +1,10 @@
 package bg.sofia.uni.fmi.mjt.todoist.menu.main;
 
 import bg.sofia.uni.fmi.mjt.todoist.database.Database;
-import bg.sofia.uni.fmi.mjt.todoist.menu.collaboration.CollaborationExecutor;
 import bg.sofia.uni.fmi.mjt.todoist.menu.command.Command;
-import bg.sofia.uni.fmi.mjt.todoist.menu.executor.CommandExecutor;
 import bg.sofia.uni.fmi.mjt.todoist.menu.command.CommandField;
-import bg.sofia.uni.fmi.mjt.todoist.menu.executor.literals.CommandExecutorResponses;
-import bg.sofia.uni.fmi.mjt.todoist.menu.main.literals.MainMenuResponses;
 import bg.sofia.uni.fmi.mjt.todoist.menu.main.literals.MainMenuFieldsPositions;
+import bg.sofia.uni.fmi.mjt.todoist.menu.main.literals.MainMenuResponses;
 import bg.sofia.uni.fmi.mjt.todoist.user.Account;
 import bg.sofia.uni.fmi.mjt.todoist.user.UserInfo;
 
@@ -18,7 +15,7 @@ public class MainMenu {
     private static final String LOGIN = "login";
     public static final String QUIT = "quit";
 
-    private Database database;
+    private final Database database;
     private String loggedInUser = null;
 
     public MainMenu(Database database) {

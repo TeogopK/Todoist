@@ -29,9 +29,9 @@ public class CommandExecutor {
 
     protected static final String LOCAL_DATE_FORMAT = "dd/MM/yyyy";
 
-    protected Account userAccount;
+    protected final Account userAccount;
 
-    protected Database database;
+    protected final Database database;
     protected String message;
 
     public CommandExecutor(Account userAccount, Database database) {

@@ -6,7 +6,6 @@ import bg.sofia.uni.fmi.mjt.todoist.task.GeneralTask;
 import bg.sofia.uni.fmi.mjt.todoist.task.TaskKey;
 
 import java.time.LocalDate;
-
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
@@ -14,11 +13,11 @@ import java.util.Map;
 
 public class Account {
 
-    private UserInfo userInfo;
+    private final UserInfo userInfo;
 
-    private Map<TaskKey, GeneralTask> ownTasks;
+    private final Map<TaskKey, GeneralTask> ownTasks;
 
-    private Map<String, String> collaborationsIDs; // name, adminUser
+    private final Map<String, String> collaborationsIDs; // name, adminUser
 
     public Account(UserInfo userInfo) {
         this.userInfo = userInfo;
