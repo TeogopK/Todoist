@@ -1,3 +1,0 @@
-{"collaborationName":"here","adminName":"stop"}
-{"collaborationName":"hey","adminName":"goAway"}
-{"collaborationName":"3Troy","adminName":"teodor"}

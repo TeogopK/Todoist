@@ -1,5 +1,0 @@
-{"name":"do chords","description":"yay!","isFinished":false}
-{"name":"1234","date":"10-10-2002","dueDate":"10-11-2003","description":"this is awesome","isFinished":false}
-{"name":"doing great aint we","date":"22-10-2002","isFinished":false}
-{"name":"second","date":"15-02-2023","isFinished":false}
-{"name":"first for today","date":"15-02-2023","isFinished":false}

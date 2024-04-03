@@ -1,3 +1,0 @@
-{"collaborationName":"233","adminName":"fsdfssds"}
-{"collaborationName":"1234","adminName":"dfs"}
-{"collaborationName":"3Troy","adminName":"teodor"}

@@ -1,2 +1,0 @@
-{"name":"do Ivan","isFinished":false}
-{"name":"hello","isFinished":false}
